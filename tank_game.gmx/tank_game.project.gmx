@@ -4,21 +4,34 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player01</sprite>
-    <sprite>sprites\spr_pewpew</sprite>
+    <sprite>sprites\spr_pewpl01</sprite>
+    <sprite>sprites\spr_player02</sprite>
+    <sprite>sprites\spr_pewpl02</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bg_player01</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_handlemovement.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player01</object>
-    <object>objects\obj_pewpew</object>
+    <object>objects\obj_pewpl01</object>
+    <object>objects\obj_player02</object>
+    <object>objects\obj_pewpl02</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tank</room>
+    <room>rooms\rm_player01</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
