@@ -10,6 +10,7 @@
     <sprite>sprites\spr_ground</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_lava</sprite>
+    <sprite>sprites\spr_player02</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_game</background>
@@ -23,6 +24,7 @@
     <object>objects\obj_block</object>
     <object>objects\obj_lava</object>
     <object>objects\RESTART</object>
+    <object>objects\obj_player02</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
