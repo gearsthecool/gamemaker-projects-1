@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+    <sound>sound\lazer</sound>
+    <sound>sound\explosion</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_tank</sprite>
     <sprite>sprites\spr_turret</sprite>
@@ -12,17 +16,24 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_lazor</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_stuff</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\turret.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_tank</object>
     <object>objects\obj_fire</object>
     <object>objects\obj_enemy</object>
     <object>objects\spawner</object>
     <object>objects\obj_lazor</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
