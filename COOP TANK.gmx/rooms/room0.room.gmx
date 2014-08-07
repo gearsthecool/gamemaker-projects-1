@@ -57,6 +57,7 @@
     <instance objName="spawner" x="4768" y="3648" name="inst_CC3775AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tank" x="3104" y="3520" name="inst_CC7FAF16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="2720" y="3136" name="inst_0CED0254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tank" x="3104" y="3584" name="inst_B57ABAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
